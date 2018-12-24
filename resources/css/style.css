@@ -69,11 +69,10 @@ li {
 
 #socialicons {
   margin-top: 50px;
-  font-size: 4em;
 }
 
-#socialicons p {
-  font-size: 0.5em;
+#socialicons i {
+  font-size: 2em;
 }
 
 #socialicons a {
