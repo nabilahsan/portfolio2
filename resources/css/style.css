@@ -13,13 +13,22 @@ body {
   background-color: black;
 }
 
+#header,
+#skillheader,
+#projectsheader {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+
 h1 {
   font-size: 8em;
   font-weight: bold;
 }
 
 h2 {
-  font-size: 6em;
+  font-weight: bold;
+  font-size: 5em;
 }
 
 h5 {
@@ -29,6 +38,7 @@ h5 {
 li {
   list-style-type: none;
 }
+
 /* Navigation */
 #navigation {
   background-color: orangered;
@@ -78,6 +88,7 @@ li {
 #socialicons a {
   margin-right: 15px;
 }
+
 #socialicons i:hover {
   color: white;
 }
@@ -95,10 +106,6 @@ li {
   background-color: orangered;
 }
 
-#skillheader h2 {
-  font-weight: bold;
-  font-size: 5em;
-}
 #skills {
   color: white;
   display: flex;
@@ -125,6 +132,7 @@ li {
   background-color: black;
 }
 
+
 #projects {
   display: flex;
   justify-content: center;
@@ -144,8 +152,23 @@ li {
 
 #work p {
   font-size: 1.5em;
+  color: white;
 }
 
 #work a {
-  color:  white;
+  color: orangered;
+}
+
+/* Footer */
+
+footer {
+  background-color: rgb(34, 34, 34);
+  height: 150px;
+  text-align: center;
+}
+
+footer p {
+  color: white;
+  font-size: 2em;
+  padding-top: 50px;
 }
