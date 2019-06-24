@@ -5,7 +5,6 @@
 
 @media (min-width: 1281px) {
 
-    //CSS
 
 }
 
@@ -43,92 +42,5 @@
   */
 
 @media (min-width: 320px) and (max-width: 480px) {
-
-    h1 {
-        font-size: 4em;
-        font-weight: bold;
-    }
-
-    h2 {
-        font-size: 2em;
-    }
-
-    h5 {
-        font-size: 1.5em;
-    }
-
-    #header,
-    #skillheader,
-    #projectsheader {
-        padding-right: 25px;
-        padding-left: 25px;
-    }
-
-    #navigation li {
-        font-size: 1em;
-    }
-
-    #navigation ul {
-        padding: 0;
-        justify-content: space-around;
-    }
-
-    #header {
-        padding-top: 100px;
-        padding-bottom: 50px;
-    }
-
-    /* Skills section */
-
-    #skillheader {
-        padding-top: 50px;
-        height: auto;
-        padding-bottom: 50px;
-    }
-
-    #skills li {
-        font-size: 1em;
-    }
-
-    ul {
-        padding: 0;
-    }
-
-    /* Project section */
-
-    #projectsheader {
-        padding-top: 50px;
-        height: auto;
-        padding-bottom: 50px;
-        margin-top: 0;
-    }
-
-    #work {
-        padding: 0px;
-    }
-
-    #projects {
-        display: flex;
-        margin-top: 0px;
-    }
-
-    #work img {
-        width: 300px;
-    }
-
-    #work p {
-        font-size: 1em;
-    }
-
-    /* Footer */
-    footer {
-        height: auto;
-    }
-
-    footer p {
-        font-size: 1em;
-        padding-bottom: 50px;
-        margin: 0;
-    }
 
 }
