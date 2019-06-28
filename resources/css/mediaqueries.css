@@ -3,10 +3,7 @@
   ##Screen = 1281px to higher resolution desktops
 */
 
-@media (min-width: 1281px) {
-
-
-}
+@media (min-width: 1281px) {}
 
 /* 
     ##Device = Laptops, Desktops
@@ -50,7 +47,7 @@
   #text-heading p {
     margin-right: 15px;
   }
-  
+
   main {
     margin: 50px;
   }
