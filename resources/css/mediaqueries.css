@@ -46,6 +46,11 @@
   h1 {
     font-size: 3rem;
   }
+
+  #text-heading p {
+    margin-right: 15px;
+  }
+  
   main {
     margin: 50px;
   }
