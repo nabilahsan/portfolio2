@@ -11,6 +11,7 @@ main {
   height: 60%;
   width: auto;
   margin: auto;
+  margin-left: 150px;
   position: absolute;
   top: 0;
   left: 0;
@@ -19,25 +20,31 @@ main {
 }
 
 h1 {
-  font-size: 4em;
+  font-size: 4rem;
   font-weight: bold;
   margin-bottom: 15px;
 }
 
-h3 {
-  font-size: 2em;
-}
 
+#pr-link {
+  color: rgb(0, 19, 59);
+  text-decoration: none;
+  font-weight: bold;
+}
 
 #text-heading {
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  text-align: center;
+}
+
+#text-heading p {
+  font-size: 1.75rem;
+  margin-right: 500px;
+  line-height: 2;
 }
 
 .fab {
-  font-size: 3em;
+  font-size: 3rem;
   color: black;
 }
 
@@ -47,10 +54,11 @@ h3 {
 }
 
 #social-icons {
+  margin-top: 25px;
   display: flex;
-  justify-content: center;
+  margin-bottom: 25px;
 }
 
 #social-icons a{
-  margin: 25px;
+  margin-right: 35px;
 }
