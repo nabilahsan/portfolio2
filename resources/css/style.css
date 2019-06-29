@@ -27,17 +27,16 @@ h1 {
 
 
 #pr-link {
-  color: rgb(0, 19, 59);
-  text-decoration: none;
+  color: rgb(255, 72, 0);
   font-weight: bold;
 }
 
-#text-heading {
+#intro-text {
   display: flex;
   flex-direction: column;
 }
 
-#text-heading p {
+#intro-text p {
   font-size: 1.75rem;
   margin-right: 500px;
   line-height: 2;

@@ -44,8 +44,9 @@
     font-size: 3rem;
   }
 
-  #text-heading p {
-    margin-right: 15px;
+  #intro-text p {
+    font-size: 1.25rem;
+    margin-right: 0px;
   }
 
   main {
