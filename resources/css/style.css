@@ -17,25 +17,46 @@ main {
   right: 0;
 }
 
+/* Global Styles */
+
 h1 {
   font-size: 4rem;
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
 }
 
-#intro-text {
-  display: flex;
-  flex-direction: column;
+h3 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 0px;
 }
 
-#intro-text p {
-  font-size: 1.75rem;
+p{
+  font-size: 1.45rem;
   margin-right: 500px;
   line-height: 2;
 }
 
+li {
+  font-size: 1.45rem;
+  line-height: 2;
+}
+
+
+#intro, #work {
+  display: flex;
+  flex-direction: column;
+}
+
+
+#intro label {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
 .fab {
-  font-size: 3rem;
+  font-size: 2rem;
   color: black;
 }
 
@@ -45,11 +66,15 @@ h1 {
 }
 
 #social-icons {
-  margin-top: 25px;
+  margin-top: 15px;
   display: flex;
   margin-bottom: 25px;
 }
 
 #social-icons a {
-  margin-right: 35px;
+  margin-right: 25px;
+}
+
+#email {
+  margin-bottom: 100px;
 }

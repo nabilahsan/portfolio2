@@ -44,7 +44,11 @@
     font-size: 3rem;
   }
 
-  #intro-text p {
+  h2 {
+    font-size: 2em;
+  }
+
+  p, li {
     font-size: 1.25rem;
     margin-right: 0px;
   }
