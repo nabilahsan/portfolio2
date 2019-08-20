@@ -31,19 +31,19 @@ h3 {
   margin-bottom: 0px;
 }
 
-p{
-  font-size: 1.45rem;
+p {
+  font-size: 1.25rem;
   margin-right: 500px;
   line-height: 2;
 }
 
 li {
-  font-size: 1.45rem;
+  font-size: 1.2rem;
   line-height: 2;
 }
 
-
-#intro, #work {
+#intro,
+#work {
   display: flex;
   flex-direction: column;
 }
@@ -75,6 +75,18 @@ li {
   margin-right: 25px;
 }
 
+#portfolio a {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
 #email {
   margin-bottom: 100px;
+}
+
+footer {
+  background-color: rgb(192, 192, 192);
+  text-align: center;
+  height: auto;
+  width: auto;
 }
