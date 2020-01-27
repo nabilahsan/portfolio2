@@ -104,8 +104,10 @@ footer {
 .iframely-embed {
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: space-evenly;
-  width: 100%;
+  width: auto;
+  height: 80%;
 }
 
 .iframely-responsive {
