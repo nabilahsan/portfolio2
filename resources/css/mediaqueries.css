@@ -42,18 +42,20 @@
 
   h1 {
     font-size: 3rem;
+    margin-top: 0px;
   }
 
   h2 {
-    font-size: 2em;
+    font-size: 2rem;
   }
 
   #intro h2 {
-    font-size: 1.5em;
+    font-size: 1.25rem;
+    width: 100%;
   }
 
   #intro label {
-    font-size: 1.5em;
+    font-size: 2rem;
     margin-bottom: 0px;
   }
 
@@ -73,7 +75,7 @@
   #social-icons {
   margin-top: 25px;
   display: flex;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 }
 
 }
