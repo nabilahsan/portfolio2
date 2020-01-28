@@ -78,21 +78,4 @@
   margin-bottom: 10px;
 }
 
-
-/* iframe styles */
-
-.iframely-embed {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  width: auto;
-  height: auto;
-}
-
-.iframely-responsive {
-  padding-top: 125px;
-  padding-bottom: 75%;
-}
-
 }
