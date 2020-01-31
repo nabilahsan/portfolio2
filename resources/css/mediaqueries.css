@@ -59,23 +59,39 @@
     margin-bottom: 0px;
   }
 
-  p, li {
+  p,
+  li {
     font-size: 1.25rem;
     margin-right: 0px;
   }
 
   main {
-    margin: 50px;
+    margin: 30px;
   }
 
   .fab {
     font-size: 1.5rem;
   }
-  
+
   #social-icons {
-  margin-top: 25px;
-  display: flex;
-  margin-bottom: 10px;
-}
+    margin-top: 25px;
+    display: flex;
+    margin-bottom: 10px;
+  }
+
+  .card,
+  .card img {
+    width: 300px;
+  }
+
+  /* .card {
+    
+  margin-bottom: 25px;
+  }
+
+  #case-studies {
+    flex-direction: column;
+    margin-bottom: 0px;
+  } */
 
 }
